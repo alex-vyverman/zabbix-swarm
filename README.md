@@ -6,3 +6,6 @@ Replacing the docker html api with running UserParameters on the agent, performi
 To make this work, the user running the zabbix agent (usually called zabbix) needs access to the docker socket. 
 
 sudo usermod -aG docker zabbix
+
+
+Place the file https://github.com/alex-vyverman/zabbix-swarm/blob/master/swarm.conf in your /zabbix_agent2.d/ folder.
